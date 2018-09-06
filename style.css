@@ -39,17 +39,17 @@ body {
     float: left;
 }
 
-.menu li a {
+.menu li {
     outline: none;  
     text-align: center;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     padding: 0 30px 10px 30px;
     text-decoration: none;
     color: whitesmoke;
 }
 
-.menu li a:hover {
+.menu li:hover {
     transition: .3s;
     border-bottom: 3px solid whitesmoke;
 }   
@@ -61,10 +61,11 @@ body {
 }
 
 .welcome-content {
+    z-index: 5;
     font-size: 30;
     transition: .5s;
     opacity: 0;
-    margin: 20% 0 0 10%;
+    margin: 17.5% 0 0 10%;
     width: 70%;
     text-align: center;
     color: white;
@@ -83,10 +84,30 @@ body {
     transition: .5s;
 }
 
-#skills {
-    height: 1500px;
+.main-content {
     width: 100%;
     background: silver;
     position: absolute;
-    top: 1000px;
+    top: 975px;
+}
+
+.about-me {
+    width: 100%;
+    height: 500px;
+    background: red;
+}
+.skills {
+    width: 100%;
+    height: 500px;
+    background: green;
+}
+.projects {
+    width: 100%;
+    height: 500px;
+    background: blue;
+}
+.contact {
+    width: 100%;
+    height: 500px;
+    background: grey;
 }

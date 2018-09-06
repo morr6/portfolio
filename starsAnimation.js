@@ -1,12 +1,12 @@
 $(document).ready(function(){
 
-    for(i=0;i<400;i++) {
+    for(i=0;i<450;i++) {
         let left = Math.random() * 2000;
         let top = Math.random() * 1000;
                 
         star = '<div class=\'star\' style=\' top:'+ top +'px; left:'+ left +'px; \'  ></div>'
         
-        $('#starsBackground').append( star )
+        $('#stars-background').append( star )
     }
     
     $('body').mousemove(function(event) {
@@ -15,7 +15,7 @@ $(document).ready(function(){
         var y = event.clientY;
                             
         for(i=0;i<$('.star').length;i++) {
-            if ( y - parseInt( $('.star')[i].style.top ) < 150 &&  parseInt( $('.star')[i].style.top ) - y < 150 && x - parseInt( $('.star')[i].style.left ) < 150 && parseInt( $('.star')[i].style.left ) - x < 150) {
+            if ( y - parseInt( $('.star')[i].style.top ) < 125 &&  parseInt( $('.star')[i].style.top ) - y < 125 && x - parseInt( $('.star')[i].style.left ) < 125 && parseInt( $('.star')[i].style.left ) - x < 125) {
                 $('.star')[i].style.opacity = '1'				
             }
             else { 
