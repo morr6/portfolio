@@ -1,4 +1,4 @@
 $(document).ready(function(){
 
-    $('.welcomeContent').css({ 'marginLeft':'20%','opacity':'1' })
+    $('.welcomeContent').css({ 'marginLeft':'15%','opacity':'1' })
 });			
