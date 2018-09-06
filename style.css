@@ -4,7 +4,7 @@ body {
     overflow-x: hidden;
     font-family: 'Orbitron', sans-serif;
 }
-#starsBackground {
+#stars-background {
     position: fixed;
     z-index: 0;
     background: url('./background.jpg') no-repeat center center;
@@ -22,7 +22,7 @@ body {
     transition: .81s
 }
 
-.menuContainer {
+.menu-container {
     background: rgba(24,65,210,.3);
     position: fixed;
     z-index: 9999;
@@ -44,7 +44,7 @@ body {
     text-align: center;
     font-weight: 500;
     font-size: 16px;
-    padding: 0 30px 10  px 30px;
+    padding: 0 30px 10px 30px;
     text-decoration: none;
     color: whitesmoke;
 }
@@ -60,7 +60,7 @@ body {
     z-index: 1;
 }
 
-.welcomeContent {
+.welcome-content {
     font-size: 30;
     transition: .5s;
     opacity: 0;
@@ -69,13 +69,16 @@ body {
     text-align: center;
     color: white;
 }
-.welcomeContent img {
+.welcome-content a {
+    text-decoration: none;
+}
+.welcome-content img {
     cursor: pointer;
     height: 100px;
     width: 100px;
     margin: 50px 30px 0 30px;
 }
-.welcomeContent img:hover {
+.welcome-content img:hover {
     transform: scale(1.1);
     transition: .5s;
 }
