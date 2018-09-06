@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    for(i=0;i<100;i++) {
+    for(i=0;i<400;i++) {
         let left = Math.random() * 2000;
         let top = Math.random() * 1000;
                 
