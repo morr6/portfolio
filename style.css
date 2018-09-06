@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#starsBackground {
+    position: fixed;
+    z-index: 0;
+    background: url('./background.jpg') no-repeat center center;
+    height:100%;
+    width:100%;
+}
+
+.star {
+    height:6px;
+    width: 6px;
+    border-radius: 50px;
+    position: absolute;
+    box-shadow:0px 0px 3px 3px #2e42d4;
+    background: linear-gradient(white,#9acacc);		
+    opacity: 0;
+    transition: .81s
+}
+
+.menuContainer {
+    position: fixed;
+    z-index: 9999;
+    list-style: none;
+    height: 6%;
+    width: 100%;    
+    background: rgba(10,24,210,.3);
+}
+.menu { 
+    margin-left: 50%;
+    list-style: none;
+}
+
+.menu li a {
+    outline: none;  
+    text-align: center;
+    font-weight: 500;
+    float: left;
+    padding: 5px 30px 10px 30px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menu li a:hover {
+    transform: scale(1.05);
+    transition: .3s;
+    border-bottom: 3px solid whitesmoke;
+}
+
+#skills {
+    height: 1500px;
+    width: 100%;
+    background: silver;
+    position: absolute;
+    top: 1000px;
+}
