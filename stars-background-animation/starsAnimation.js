@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    for(i=0;i<450;i++) {
+    for(i=0;i<200;i++) {
         let left = Math.random() * 2000;
         let top = Math.random() * 1000;
                 
@@ -9,7 +9,7 @@ $(document).ready(function(){
         $('#stars-background').append( star )
     }
     
-    $('#stars-background, .headerw').mousemove(function(event) {
+    $('#stars-background, .header').mousemove(function(event) {
     
         var x = event.clientX;
         var y = event.clientY;

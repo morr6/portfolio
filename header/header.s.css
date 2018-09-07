@@ -7,9 +7,9 @@
 .welcome-content {
     z-index: 5;
     font-size: 30;
-    transition: .5s;
+    transition: 1s;
     opacity: 0;
-    margin: 17.5% 0 0 -10%;
+    margin: 17.5% 0 0 -50%;
     width: 70%;
     text-align: center;
     color: white;
