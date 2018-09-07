@@ -13,6 +13,7 @@
     flex-wrap: wrap; 
 }
 .technology-wrapper {   
+    flex-basis: 16.66%;
     text-align: center;
     width:  75px;
     height: 125px;
