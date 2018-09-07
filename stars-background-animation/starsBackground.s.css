@@ -1,0 +1,17 @@
+#stars-background {
+    position: fixed;
+    z-index: 0;
+    background: url('./background.jpg') no-repeat center center;
+    height:100%;
+    width:100%;
+}
+.star {
+    height:6px;
+    width: 6px;
+    border-radius: 50px;
+    position: absolute;
+    box-shadow:0px 0px 3px 3px #2e42d4;
+    background: linear-gradient(white,#9acacc);		
+    opacity: 0;
+    transition: .81s
+}

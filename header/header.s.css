@@ -1,0 +1,31 @@
+.header {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.welcome-content {
+    z-index: 5;
+    font-size: 30;
+    transition: .5s;
+    opacity: 0;
+    margin: 17.5% 0 0 -10%;
+    width: 70%;
+    text-align: center;
+    color: white;
+}
+.welcome-content a {
+    outline: none;
+    text-decoration: none;
+}
+.logos img {
+    outline: none;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    margin: 50px 30px 0 30px;
+}
+.header img:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}

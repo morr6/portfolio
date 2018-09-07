@@ -1,0 +1,29 @@
+.menu-container {
+    background: rgba(24,65,210,.3);
+    position: fixed;
+    z-index: 9999;
+    list-style: none;
+    height: 6%;
+    width: 100%;    
+}
+.menu {
+    margin-right: 10%;
+    float: right;
+    list-style: none;
+}
+.menu li {
+    cursor: pointer;
+    float: left;
+    outline: none;  
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 30px 10px 30px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menu li:hover {
+    transition: .3s;
+    border-bottom: 3px solid whitesmoke;
+}   

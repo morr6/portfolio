@@ -4,110 +4,13 @@ body {
     overflow-x: hidden;
     font-family: 'Orbitron', sans-serif;
 }
-#stars-background {
-    position: fixed;
-    z-index: 0;
-    background: url('./background.jpg') no-repeat center center;
-    height:100%;
-    width:100%;
-}
-.star {
-    height:6px;
-    width: 6px;
-    border-radius: 50px;
-    position: absolute;
-    box-shadow:0px 0px 3px 3px #2e42d4;
-    background: linear-gradient(white,#9acacc);		
-    opacity: 0;
-    transition: .81s
-}
-
-.menu-container {
-    background: rgba(24,65,210,.3);
-    position: fixed;
-    z-index: 9999;
-    list-style: none;
-    height: 6%;
-    width: 100%;    
-}
-.menu {
-    margin-right: 10%;
-    float: right;
-    list-style: none;
-}
-.menu li {
-    float: left;
-}
-
-.menu li {
-    outline: none;  
-    text-align: center;
-    font-weight: 500;
-    font-size: 18px;
-    padding: 0 30px 10px 30px;
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-.menu li:hover {
-    transition: .3s;
-    border-bottom: 3px solid whitesmoke;
-}   
-
-.header {
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-}
-
-.welcome-content {
-    z-index: 5;
-    font-size: 30;
-    transition: .5s;
-    opacity: 0;
-    margin: 17.5% 0 0 10%;
-    width: 70%;
-    text-align: center;
-    color: white;
-}
-.welcome-content a {
-    text-decoration: none;
-}
-.welcome-content img {
-    cursor: pointer;
-    height: 100px;
-    width: 100px;
-    margin: 50px 30px 0 30px;
-}
-.welcome-content img:hover {
-    transform: scale(1.1);
-    transition: .5s;
-}
-
 .main-content {
     width: 100%;
-    background: silver;
+    background: white;
     position: absolute;
     top: 975px;
 }
 
-.about-me {
-    width: 100%;
-    height: 500px;
-    background: red;
-}
-.skills {
-    width: 100%;
-    height: 500px;
-    background: green;
-}
-.projects {
-    width: 100%;
-    height: 500px;
-    background: blue;
-}
-.contact {
-    width: 100%;
-    height: 500px;
-    background: grey;
+body hr {
+    width: 80%;
 }

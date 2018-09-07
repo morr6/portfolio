@@ -1,6 +1,4 @@
 $(document).ready(function(){
-    $('.welcome-content').css({ 'marginLeft':'15%','opacity':'1' })
-
     $('#menu-home').click(function(){
         $('html, body').animate({ scrollTop: 0 })
     });
@@ -9,9 +7,9 @@ $(document).ready(function(){
             scrollTop:  $('.about-me').offset().top - 100
         })
     });
-    $('#menu-skills').click(function(){
+    $('#menu-technologies').click(function(){
         $('html, body').animate({ 
-            scrollTop: $('.skills').offset().top - 100
+            scrollTop: $('.technologies').offset().top - 100
         })
     });
     $('#menu-projects').click(function(){

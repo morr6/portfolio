@@ -3,6 +3,13 @@
 	<meta charset="UTF-8">
 	<title>Portfolio Marcin Dobosz</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="aboutMe/aboutMe.s.css">
+	<link rel="stylesheet" type="text/css" href="contact/contact.s.css">
+	<link rel="stylesheet" type="text/css" href="header/header.s.css">
+	<link rel="stylesheet" type="text/css" href="menu/menu.s.css">
+	<link rel="stylesheet" type="text/css" href="projects/projects.s.css">
+	<link rel="stylesheet" type="text/css" href="technologies/technologies.s.css">
+	<link rel="stylesheet" type="text/css" href="stars-background-animation/starsBackground.s.css">	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
@@ -13,7 +20,7 @@
 		<ul class='menu'>
 			<li id='menu-home'> HOME </li>
 			<li id='menu-about-me'> O MNIE </li>
-			<li id='menu-skills'> UMIEJĘTNOŚCI </li>
+			<li id='menu-technologies'> TECHNOLOGIE	 </li>
 			<li id='menu-projects'> PROJEKTY </li>
 			<li id='menu-contact'> KONTAKT </li>
 		</ul>
@@ -26,37 +33,77 @@
 			<span> Cześć! Jestem Marcin i szukam swojej pierwszej pracy lub stażu jako 
 				junior front-end developer w Krakowie.
 			</span>
-			<div class='logos'>
-				<a href='https://github.com/morr6' target="_blank">
-					<img src='./githubLogo.png'/> 
-				</a>
-				<a href="https://www.linkedin.com/in/marcin-dobosz-76357a168/" target="_blank">
-					<img src='./linkedinLogo.png'/>
-				</a>
-				<a>
-					<img src='./gmailLogo.png'/>
-				</a> 
-			</div>
+				<div class='logos'>
+					<a href='https://github.com/morr6' target="_blank">
+						<img src='./images/githubLogo.png'/> 
+					</a>
+					<a href="https://www.linkedin.com/in/marcin-dobosz-76357a168/" target="_blank">
+						<img src='./images/linkedinLogo.png'/>
+					</a>
+					<a>
+						<img src='./images/gmailLogo.png'/>
+					</a> 
+				</div>
 		</div>
 	</div>
 	<div class='main-content'>
-		<div class='about-me' name='about-me'>
-
+		<div class='about-me'>
+			<div class='technologies-title'> 
+				O mnie
+			</div>
 		</div>
-		<div class='skills' name='skills'>
-
+		<hr />
+		<div class='technologies'>
+			<div class='technologies-title'> 
+				Technologie
+			</div>
+			<div class='technology-wrapper'>
+				<img class='technologies-icons' src='images/html-icon.png' />
+				<div class='technology-name'> HTML </div>
+			</div>
+			<div class='technology-wrapper'>
+				<img class='technologies-icons' src='images/css-icon.png' />
+				<div class='technology-name'> CSS </div>
+			</div>
+			<div class='technology-wrapper'>
+				<img class='technologies-icons' src='images/js-icon.png' />
+				<div class='technology-name'> JS / ES6 </div>
+			</div>
+			<div class='technology-wrapper'>
+				<img class='technologies-icons' src='images/jquery-icon.png' />
+				<div class='technology-name'> JQUERY </div>
+			</div>
+			<div class='technology-wrapper'>
+				<img class='technologies-icons' src='images/react-icon.png' />
+				<div class='technology-name'> REACT </div>
+			</div>
+			<div class='technology-wrapper'>
+				<img class='technologies-icons' src='images/redux-icon.png' />
+				<div class='technology-name'> REDUX </div>
+			</div>
+			<div class='technology-wrapper'>
+				<img class='technologies-icons' src='images/glamorous-icon.png' />
+				<div class='technology-name'> GLAMOROUS </div>
+			</div>
+			<div class='technology-wrapper'>
+				<img class='technologies-icons' src='images/git-icon.png' />
+				<div class='technology-name'> GIT </div>
+			</div>
 		</div>
-		<div class='projects' name='projects'>
-
+		<hr />
+		<div class='projects'>
+			<div class='technologies-title'> 
+				Moje projekty
+			</div>
 		</div>
-		<div class='contact' name='contact'>
-
+		<div class='contact'>
 		</div>
 	</div>
 	
 
-	<script src='main.js'></script>
-	<script src='starsAnimation.js'></script>
+	<script src='menu/menu.js'></script>
+	<script src='header/header.js'></script> 
+	<script src='./stars-background-animation/'></script>
 
 </body>
 </html>

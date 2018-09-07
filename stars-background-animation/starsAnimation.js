@@ -9,7 +9,7 @@ $(document).ready(function(){
         $('#stars-background').append( star )
     }
     
-    $('body').mousemove(function(event) {
+    $('#stars-background, .headerw').mousemove(function(event) {
     
         var x = event.clientX;
         var y = event.clientY;
